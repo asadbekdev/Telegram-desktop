@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Telegram Desktop</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+        <link rel="icon" href="img/768px-Telegram_Messenger.png">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="nav-section">
+                <button type="button" class="btn menu-button" data-bs-toggle="modal" data-bs-target="#sideBar">
+                    <i class="fas fa-bars menu-bar"></i>
+                </button>
+
+                <div class="modal fade" id="sideBar" tabindex="-1" aria-labelledby="sideBarLabel" aria-hidden="true">
+                    <div class="modal-dialog animate__animated animate__slideInLeft">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="modal-head-part">
+                                    <img src="img/profile-img1.jpg" alt="" class="profile-img">
+                                    <p class="profile-name">Asadbek Noyibjonov</p>
+                                    <p class="profile-number">+998 33 2887702</p>
+                                </div>
+                                <ul class="modal-ul">
+                                    <li class="modal-li">
+                                        <i class="fas fa-users groups-icon"></i>
+                                        <p class="modal-li-p">New Group</p>
+                                    </li>
+                                    <li class="modal-li">
+                                        <i class="fas fa-bullhorn channels-icon"></i>
+                                        <p class="modal-li-p">New Channel</p>
+                                    </li>
+                                    <li class="modal-li">
+                                        <i class="fas fa-user user-icon"></i>
+                                        <p class="modal-li-p">Contacts</p>
+                                    </li>
+                                    <li class="modal-li">
+                                        <i class="fas fa-phone-alt phone-icon"></i>
+                                        <p class="modal-li-p">Calls</p>
+                                    </li>
+                                    <li class="modal-li dark-button">
+                                        <i class="fas fa-cog settings-icon"></i>
+                                        <p class="modal-li-p">Settings</p>
+                                    </li>
+                                    <li class="modal-li">
+                                        <i class="fas fa-moon moon-icon"></i>
+                                        <p class="modal-li-p">Night Mode</p>
+                                        <i class="fas fa-toggle-off toggle-icon"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                                <strong>Telegram Desktop</strong>
+                                <span>by</span>
+                                <i>Asadbek</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <ul class="contacts-sorted-list">
+                    <li class="sorted-list-item">
+                        <i class="fas fa-comments chats-icon"></i>
+                        <p class="icon-title">All chats</p>
+                    </li>
+                    <li class="sorted-list-item">
+                        <i class="fas fa-user user-icon"></i>
+                        <p class="icon-title">Users</p>
+                    </li>
+                    <li class="sorted-list-item">
+                        <i class="fas fa-users groups-icon"></i>
+                        <p class="icon-title">Groups</p>
+                    </li>
+                    <li class="sorted-list-item">
+                        <i class="fas fa-bullhorn channels-icon"></i>
+                        <p class="icon-title">Channels</p>
+                    </li>
+                    <li class="sorted-list-item">
+                        <i class="fas fa-star favorites-icon"></i>
+                        <p class="icon-title">Favorites</p>
+                    </li>
+                    <li class="sorted-list-item">
+                        <i class="fas fa-robot bot-icon"></i>
+                        <p class="icon-title">Bots</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="contacts-section">
+                <div class="contacts-header-part">
+                    <input type="search" class="search-input" placeholder="Search">
+                </div>
+                <ul class="contacts-ul">
+                    <li class="contacts-li">
+                        <img src="img/profile.jpg" alt="" class="contacts-profile-img">
+                        <div class="contact-details">
+                            <p class="contact-name">MuhammadYunus</p>
+                            <p class="contact-last-text">Salom</p>
+                        </div>
+                    </li>
+                    <li class="contacts-li">
+                        <img src="img/profile.jpg" alt="" class="contacts-profile-img">
+                        <div class="contact-details">
+                            <p class="contact-name">MuhammadYunus</p>
+                            <p class="contact-last-text">Salom</p>
+                        </div>
+                    </li>
+                    <li class="contacts-li">
+                        <img src="img/profile.jpg" alt="" class="contacts-profile-img">
+                        <div class="contact-details">
+                            <p class="contact-name">MuhammadYunus</p>
+                            <p class="contact-last-text">Salom</p>
+                        </div>
+                    </li>
+                    <li class="contacts-li">
+                        <img src="img/profile.jpg" alt="" class="contacts-profile-img">
+                        <div class="contact-details">
+                            <p class="contact-name">MuhammadYunus</p>
+                            <p class="contact-last-text">Salom</p>
+                        </div>
+                    </li>
+                    <li class="contacts-li">
+                        <img src="img/profile.jpg" alt="" class="contacts-profile-img">
+                        <div class="contact-details">
+                            <p class="contact-name">MuhammadYunus</p>
+                            <p class="contact-last-text">Salom</p>
+                        </div>
+                    </li>
+                    <li class="contacts-li">
+                        <img src="img/profile.jpg" alt="" class="contacts-profile-img">
+                        <div class="contact-details">
+                            <p class="contact-name">MuhammadYunus</p>
+                            <p class="contact-last-text">Salom</p>
+                        </div>
+                    </li>
+                    <li class="contacts-li">
+                        <img src="img/profile-img.jpg" alt="" class="contacts-profile-img">
+                        <div class="contact-details">
+                            <p class="contact-name">MuhammadYunus</p>
+                            <p class="contact-last-text">Salom</p>
+                        </div>
+                    </li>
+                    <li class="contacts-li">
+                        <img src="img/profile.jpg" alt="" class="contacts-profile-img">
+                        <div class="contact-details">
+                            <p class="contact-name">MuhammadYunus</p>
+                            <p class="contact-last-text">Salom</p>
+                        </div>
+                    </li>
+                    <li class="contacts-li">
+                        <img src="img/profile.jpg" alt="" class="contacts-profile-img">
+                        <div class="contact-details">
+                            <p class="contact-name">MuhammadYunus</p>
+                            <p class="contact-last-text">Salom</p>
+                        </div>
+                    </li>
+                    <li class="contacts-li">
+                        <img src="img/profile.jpg" alt="" class="contacts-profile-img">
+                        <div class="contact-details">
+                            <p class="contact-name">MuhammadYunus</p>
+                            <p class="contact-last-text">Salom</p>
+                        </div>
+                    </li>
+                    <li class="contacts-li">
+                        <img src="img/profile.jpg" alt="" class="contacts-profile-img">
+                        <div class="contact-details">
+                            <p class="contact-name">MuhammadYunus</p>
+                            <p class="contact-last-text">Salom</p>
+                        </div>
+                    </li>
+                    <li class="contacts-li">
+                        <img src="img/profile.jpg" alt="" class="contacts-profile-img">
+                        <div class="contact-details">
+                            <p class="contact-name">MuhammadYunus</p>
+                            <p class="contact-last-text">Salom</p>
+                        </div>
+                    </li>
+                    <li class="contacts-li">
+                        <img src="img/profile.jpg" alt="" class="contacts-profile-img">
+                        <div class="contact-details">
+                            <p class="contact-name">MuhammadYunus</p>
+                            <p class="contact-last-text">Salom</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="message-section">
+                <div class="message-header-part">
+                    <div class="mh-contact-details accountModal-btn">
+                        <p class="mh-contact-name">MuhammadYunus</p>
+                        <p class="mh-contact-status">last seen recently</p>
+                    </div>
+                    <div class="mh-icons">
+                        <button class="btns">
+                            <i class="fas fa-search search-icon"></i>
+                        </button>
+                        <button class="btns">
+                            <i class="fas fa-phone-alt phone-icon"></i>
+                        </button>
+                        <div class="btn-group">
+                            <button class="btns" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-ellipsis-v dotted-menu-bar"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li>
+                                    <button class="dropdown-item" type="button">View Profile</button>
+                                </li>
+                                <li>
+                                    <button class="dropdown-item" type="button">Enable Notifications</button>
+                                </li>
+                                <li>
+                                    <button class="dropdown-item" type="button">Add to contacts</button>
+                                </li>
+                                <li>
+                                    <button class="dropdown-item" type="button">Export chat history</button>
+                                </li>
+                                <li>
+                                    <button class="dropdown-item" type="button">Delete chat</button>
+                                </li>
+                                <li>
+                                    <button class="dropdown-item" type="button">Clear history</button>
+                                </li>
+                                <li>
+                                    <button class="dropdown-item" type="button">Block user</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="message-section-main">
+                    <ul
+                        class="messages-ul">
+                            <!-- <li class="messages-li">
+                            <p class="sent-text">Salom</p>
+                            </li>
+                            <li class="messages-li">                                                                                                       <p class="li-text received-text">Hayr</p>
+                            </li> -->
+                    </ul>
+                </div>
+                <div class="typing-section">
+                    <form class="typing-form" action="https:echo.htmlacademy.ru" method="post">
+
+                        <label>
+                            <input type="file" class="file-input" hidden>
+                            <i class="fas fa-paperclip paperclip-icon"></i>
+                        </label>
+
+                        <textarea placeholder="Write a message..." class="typing-area" value="salom"></textarea>
+                        <div class="btn-group dropup">
+                            <button type="button" class="dropdown-toggle emoji2" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="far fa-smile smile-icon"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <ul class="stickers">
+
+                                    <li id="emoji0" class="emojies">
+                                        😀
+                                    </li>
+
+
+                                    <li id="emoji1" class="emojies">
+                                        😃
+                                    </li>
+
+
+                                    <li id="emoji2" class="emojies">
+                                        😄
+                                    </li>
+
+
+                                    <li id="emoji3" class="emojies">
+                                        😁
+                                    </li>
+
+
+                                    <li id="emoji4" class="emojies">
+                                        😆
+                                    </li>
+
+
+                                    <li id="emoji5" class="emojies">
+                                            
+                                    </li>
+
+
+                                    <li id="emoji6" class="emojies">
+                                        😂
+                                    </li>
+
+
+                                    <li id="emoji7" class="emojies">
+                                        😇
+                                    </li>
+
+
+                                    <li id="emoji8" class="emojies">
+                                        🙂
+                                    </li>
+
+
+                                    <li id="emoji9" class="emojies">
+                                        🙃
+                                    </li>
+
+
+                                    <li id="emoji10" class="emojies">
+                                        😉
+                                    </li>
+
+
+                                    <li id="emoji11" class="emojies">
+                                        😌
+                                    </li>
+
+
+                                    <li id="emoji12" class="emojies">
+                                        😍
+                                    </li>
+
+
+                                    <li id="emoji13" class="emojies">
+                                        🥰
+                                    </li>
+
+
+                                    <li id="emoji14" class="emojies">
+                                        😘
+                                    </li>
+
+
+                                    <li id="emoji15" class="emojies">
+                                        😗
+                                    </li>
+
+
+                                    <li id="emoji16" class="emojies">
+                                        😙
+                                    </li>
+
+
+                                    <li id="emoji17" class="emojies">
+                                        😚
+                                    </li>
+
+
+                                    <li id="emoji18" class="emojies">
+                                        😋
+                                    </li>
+
+
+                                    <li id="emoji19" class="emojies">
+                                        😛
+                                    </li>
+
+
+                                    <li id="emoji20" class="emojies">
+                                        😝
+                                    </li>
+
+
+                                    <li id="emoji21" class="emojies">
+                                        😜
+                                    </li>
+
+
+                                    <li id="emoji22" class="emojies">
+                                        🤪
+                                    </li>
+
+
+                                    <li id="emoji23" class="emojies">
+                                        🤨
+                                    </li>
+
+
+                                    <li id="emoji24" class="emojies">
+                                        🧐
+                                    </li>
+
+
+                                    <li id="emoji25" class="emojies">
+                                        🤓
+                                    </li>
+
+
+                                    <li id="emoji26" class="emojies">
+                                        😎
+                                    </li>
+
+
+                                    <li id="emoji27" class="emojies">
+                                        🥸
+                                    </li>
+
+
+                                    <li id="emoji28" class="emojies">
+                                        🤩
+                                    </li>
+
+
+                                    <li id="emoji29" class="emojies">
+                                        🥳
+                                    </li>
+
+
+                                    <li id="emoji30" class="emojies">
+                                        😏
+                                    </li>
+
+
+                                    <li id="emoji31" class="emojies">
+                                        😒
+                                    </li>
+
+
+                                    <li id="emoji32" class="emojies">
+                                        😞
+                                    </li>
+
+
+                                    <li id="emoji33" class="emojies">
+                                        😔
+                                    </li>
+
+
+                                    <li id="emoji34" class="emojies">
+                                        😟
+                                    </li>
+
+
+                                    <li id="emoji35" class="emojies">
+                                        😕
+                                    </li>
+
+
+                                    <li id="emoji36" class="emojies">
+                                        🙁
+                                    </li>
+
+
+                                    <li id="emoji37" class="emojies">
+                                        ☹
+                                    </li>
+
+
+                                    <li id="emoji38" class="emojies">
+                                        ️
+                                    </li>
+
+
+                                    <li id="emoji39" class="emojies">
+                                        😣
+                                    </li>
+
+
+                                    <li id="emoji40" class="emojies">
+                                        😖
+                                    </li>
+
+
+                                    <li id="emoji41" class="emojies">
+                                        😫
+                                    </li>
+
+
+                                    <li id="emoji42" class="emojies">
+                                        😩
+                                    </li>
+
+
+                                    <li id="emoji43" class="emojies">
+                                        🥺
+                                    </li>
+
+
+                                    <li id="emoji44" class="emojies">
+                                        😢
+                                    </li>
+
+
+                                    <li id="emoji45" class="emojies">
+                                        😤
+                                    </li>
+
+
+                                    <li id="emoji46" class="emojies">
+                                        😠
+                                    </li>
+
+
+                                    <li id="emoji47" class="emojies">
+                                        😡
+                                    </li>
+
+
+                                    <li id="emoji48" class="emojies">
+                                        🤬
+                                    </li>
+
+
+                                    <li id="emoji49" class="emojies">
+                                        🤯
+                                    </li>
+
+
+                                    <li id="emoji50" class="emojies">
+                                        😳
+                                    </li>
+
+
+                                    <li id="emoji51" class="emojies">
+                                        🥵
+                                    </li>
+
+
+                                    <li id="emoji52" class="emojies"></li>
+
+
+                                    <li id="emoji53" class="emojies">
+                                        🥶
+                                    </li>
+
+
+                                    <li id="emoji54" class="emojies"></li>
+
+
+                                    <li id="emoji55" class="emojies">
+                                        😱
+                                    </li>
+
+
+                                    <li id="emoji56" class="emojies"></li>
+
+
+                                    <li id="emoji57" class="emojies">
+                                        😨
+                                    </li>
+
+
+                                    <li id="emoji58" class="emojies"></li>
+
+
+                                    <li id="emoji59" class="emojies">
+                                        😰
+                                    </li>
+
+
+                                    <li id="emoji60" class="emojies"></li>
+
+
+                                    <li id="emoji61" class="emojies">
+                                        😥
+                                    </li>
+
+
+                                    <li id="emoji62" class="emojies"></li>
+
+
+                                    <li id="emoji63" class="emojies">
+                                        😓
+                                    </li>
+
+
+                                    <li id="emoji64" class="emojies"></li>
+
+
+                                    <li id="emoji65" class="emojies">
+                                        🤗
+                                    </li>
+
+
+                                    <li id="emoji66" class="emojies"></li>
+
+
+                                    <li id="emoji67" class="emojies">
+                                        🤔
+                                    </li>
+
+
+                                    <li id="emoji68" class="emojies"></li>
+
+
+                                    <li id="emoji69" class="emojies">
+                                        🤭
+                                    </li>
+
+
+                                    <li id="emoji70" class="emojies"></li>
+
+
+                                    <li id="emoji71" class="emojies">
+                                        🤫
+                                    </li>
+
+
+                                    <li id="emoji72" class="emojies"></li>
+
+
+                                    <li id="emoji73" class="emojies">
+                                        🤥
+                                    </li>
+
+
+                                    <li id="emoji74" class="emojies"></li>
+
+
+                                    <li id="emoji75" class="emojies">
+                                        😶
+                                    </li>
+
+
+                                    <li id="emoji76" class="emojies"></li>
+
+
+                                    <li id="emoji77" class="emojies">
+                                        😐
+                                    </li>
+
+
+                                    <li id="emoji78" class="emojies"></li>
+
+
+                                    <li id="emoji79" class="emojies">
+                                        😑
+                                    </li>
+
+
+                                    <li id="emoji80" class="emojies"></li>
+
+
+                                    <li id="emoji81" class="emojies">
+                                        😬
+                                    </li>
+
+
+                                    <li id="emoji82" class="emojies"></li>
+
+
+                                    <li id="emoji83" class="emojies">
+                                        🙄
+                                    </li>
+
+
+                                    <li id="emoji84" class="emojies"></li>
+
+
+                                    <li id="emoji85" class="emojies">
+                                        😯
+                                    </li>
+
+
+                                    <li id="emoji86" class="emojies"></li>
+
+
+                                    <li id="emoji87" class="emojies">
+                                        😦
+                                    </li>
+
+
+                                    <li id="emoji88" class="emojies"></li>
+
+
+                                    <li id="emoji89" class="emojies">
+                                        😧
+                                    </li>
+
+
+                                    <li id="emoji90" class="emojies"></li>
+
+
+                                    <li id="emoji91" class="emojies">
+                                        😮
+                                    </li>
+
+
+                                    <li id="emoji92" class="emojies"></li>
+
+
+                                    <li id="emoji93" class="emojies">
+                                        😲
+                                    </li>
+
+
+                                    <li id="emoji94" class="emojies"></li>
+
+
+                                    <li id="emoji95" class="emojies">
+                                        🥱
+                                    </li>
+
+
+                                    <li id="emoji96" class="emojies"></li>
+
+
+                                    <li id="emoji97" class="emojies">
+                                        😴
+                                    </li>
+
+
+                                    <li id="emoji98" class="emojies"></li>
+
+
+                                    <li id="emoji99" class="emojies">
+                                        🤤
+                                    </li>
+
+
+                                    <li id="emoji100" class="emojies"></li>
+
+
+                                    <li id="emoji101" class="emojies">
+                                        😪
+                                    </li>
+
+
+                                    <li id="emoji102" class="emojies"></li>
+
+
+                                    <li id="emoji103" class="emojies">
+                                        😵
+                                    </li>
+
+
+                                    <li id="emoji104" class="emojies"></li>
+
+
+                                    <li id="emoji105" class="emojies">
+                                        🤐
+                                    </li>
+
+
+                                    <li id="emoji106" class="emojies"></li>
+
+
+                                    <li id="emoji107" class="emojies">
+                                        🥴
+                                    </li>
+
+
+                                    <li id="emoji108" class="emojies"></li>
+
+
+                                    <li id="emoji109" class="emojies">
+                                        🤢
+                                    </li>
+
+
+                                    <li id="emoji110" class="emojies"></li>
+
+
+                                    <li id="emoji111" class="emojies">
+                                        🤮
+                                    </li>
+
+
+                                    <li id="emoji112" class="emojies"></li>
+
+
+                                    <li id="emoji113" class="emojies">
+                                        🤧
+                                    </li>
+
+
+                                    <li id="emoji114" class="emojies"></li>
+
+
+                                    <li id="emoji115" class="emojies">
+                                        😷
+                                    </li>
+
+
+                                    <li id="emoji116" class="emojies"></li>
+
+
+                                    <li id="emoji117" class="emojies">
+                                        🤒
+                                    </li>
+
+
+                                    <li id="emoji118" class="emojies"></li>
+
+
+                                    <li id="emoji119" class="emojies">
+                                        🤕
+                                    </li>
+
+
+                                    <li id="emoji120" class="emojies"></li>
+
+
+                                    <li id="emoji121" class="emojies">
+                                        🤑
+                                    </li>
+
+
+                                    <li id="emoji122" class="emojies"></li>
+
+
+                                    <li id="emoji123" class="emojies">
+                                        🤠
+                                    </li>
+
+
+                                    <li id="emoji124" class="emojies"></li>
+
+
+                                    <li id="emoji125" class="emojies">
+                                        😈
+                                    </li>
+
+
+                                    <li id="emoji126" class="emojies"></li>
+
+
+                                    <li id="emoji127" class="emojies">
+                                        👿
+                                    </li>
+
+
+                                    <li id="emoji128" class="emojies"></li>
+
+
+                                    <li id="emoji129" class="emojies">
+                                        👹
+                                    </li>
+
+
+                                    <li id="emoji130" class="emojies"></li>
+
+
+                                    <li id="emoji131" class="emojies">
+                                        👺
+                                    </li>
+
+
+                                    <li id="emoji132" class="emojies"></li>
+
+
+                                    <li id="emoji133" class="emojies">
+                                        🤡
+                                    </li>
+
+
+                                    <li id="emoji134" class="emojies"></li>
+
+
+                                    <li id="emoji135" class="emojies">
+                                        💩
+                                    </li>
+
+
+                                    <li id="emoji136" class="emojies"></li>
+
+
+                                    <li id="emoji137" class="emojies">
+                                        👻
+                                    </li>
+
+
+                                    <li id="emoji138" class="emojies"></li>
+
+
+                                    <li id="emoji139" class="emojies">
+                                        💀
+                                    </li>
+
+
+                                    <li id="emoji140" class="emojies"></li>
+
+
+                                    <li id="emoji141" class="emojies">
+                                        ☠
+                                    </li>
+
+
+                                    <li id="emoji142" class="emojies">
+                                        ️
+                                    </li>
+
+
+                                    <li id="emoji143" class="emojies"></li>
+
+
+                                    <li id="emoji144" class="emojies">
+                                        👽
+                                    </li>
+
+
+                                    <li id="emoji145" class="emojies"></li>
+
+
+                                    <li id="emoji146" class="emojies">
+                                        👾
+                                    </li>
+
+
+                                    <li id="emoji147" class="emojies"></li>
+
+
+                                    <li id="emoji148" class="emojies">
+                                        🤖
+                                    </li>
+
+
+                                    <li id="emoji149" class="emojies"></li>
+
+
+                                    <li id="emoji150" class="emojies">
+                                        🎃
+                                    </li>
+
+
+                                    <li id="emoji151" class="emojies"></li>
+
+
+                                    <li id="emoji152" class="emojies">
+                                        😺
+                                    </li>
+
+
+                                    <li id="emoji153" class="emojies"></li>
+
+
+                                    <li id="emoji154" class="emojies">
+                                        😸
+                                    </li>
+
+
+                                    <li id="emoji155" class="emojies"></li>
+
+
+                                    <li id="emoji156" class="emojies">
+                                        😹
+                                    </li>
+
+
+                                    <li id="emoji157" class="emojies"></li>
+
+
+                                    <li id="emoji158" class="emojies">
+                                        😻
+                                    </li>
+
+
+                                    <li id="emoji159" class="emojies"></li>
+
+
+                                    <li id="emoji160" class="emojies">
+                                        😼
+                                    </li>
+
+
+                                    <li id="emoji161" class="emojies"></li>
+
+
+                                    <li id="emoji162" class="emojies">
+                                        😽
+                                    </li>
+
+
+                                    <li id="emoji163" class="emojies"></li>
+
+
+                                    <li id="emoji164" class="emojies">
+                                        🙀
+                                    </li>
+
+
+                                    <li id="emoji165" class="emojies"></li>
+
+
+                                    <li id="emoji166" class="emojies">
+                                        😿
+                                    </li>
+
+
+                                    <li id="emoji167" class="emojies"></li>
+
+
+                                    <li id="emoji168" class="emojies">
+                                        😾
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                        <i class="fas fa-microphone voice-icon"></i>
+                        <button data-submit type="submit">
+                            <i class="fas fa-paper-plane send-icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="accountModal">
+                <div class="accountModalDialog">
+                    <div class="accountModalContent">
+                        <div class="accountModalHeader">
+                            <h5 class="m-0">User Info</h5>
+                            <div class="accountModalHeader-icons">
+                                <button class="btns func-btns">
+                                    <i class="fas fa-phone-alt phone-icon"></i>
+                                </button>
+                                <button class="btns func-btns">
+                                    <i class="fas fa-ellipsis-v dotted-menu-bar"></i>
+                                </button>
+                                <button class="btns func-btns modal-dismis">
+                                    <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="accountModalBody">
+                            <div class="modal-body_main  d-flex">
+                                <img src="/img/profile.jpg" class="modal-body_main_avatar" alt="avatar">
+                                <div class="modal-body_main_content">
+                                    <span class="modal-body_main_content_username">MuhammadYunus</span>
+                                    <span class="modal-body_main_content_status">last seen recently</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accountModalFooter">
+                            Footer
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        <script src="./js/index.js"></script>
+    </body>
+
+</html>
